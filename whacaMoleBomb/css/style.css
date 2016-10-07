@@ -1,0 +1,129 @@
+#myFrame{display:none;}
+
+img {
+  width: 140px;
+  margin: 10px;
+}
+
+body {
+    background-color: #000;
+    background-image: url("http://oi63.tinypic.com/10z7dro.jpg");
+    
+    background-repeat: no-repeat;
+  background-position: center center;
+  margin-top:900px;
+ 
+}
+
+.Absolute-Center-Title {
+  margin: auto;
+  position: absolute;
+  top: 70px; left: -30px; bottom: 0; right: 0;
+}
+
+.Absolute-Center-Title2 {
+  margin: auto;
+  position: absolute;
+  top: 10px; left: -30px; bottom: 0; right: 0;
+}
+
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 210px; left: -35px; bottom: 30; right: 0;
+}
+
+#PointsView {margin-top:50px;}
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+#PointsView{
+  color:#fff;
+  font-family: 'Baloo Da', cursive;
+  font-size: 40px;
+}
+
+@keyframes height {
+  100% {
+    height: 100%;
+  }
+}
+@keyframes color {
+  0% {
+    background-color: #e53917;
+  }
+  100% {
+    background-color: #64de1a;
+  }
+}
+@keyframes opacity {
+  100% {
+    opacity: 0;
+  }
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  bottom: 100;
+  position: absolute;
+  width: 100%;
+}
+ul li:nth-child(1) {
+  animation-duration: 1500s, 1500s;
+  animation-iteration-count: 1;
+  animation-name: height, color;
+  opacity: .6;
+}
+ul li:nth-child(2) {
+  animation-duration: 60s, 1500s, 60s;
+  animation-iteration-count: 1;
+  animation-name: height, color, opacity;
+  animation-timing-function: step-stop;
+  opacity: .2;
+}
+ul li:nth-child(3) {
+  animation-duration: 30s, 1500s, 30s;
+  animation-iteration-count: 100;
+  animation-name: height, color, opacity;
+  animation-timing-function: step-stop;
+  opacity: .2;
+}
+ul li:nth-child(4) {
+  animation-duration: 10s, 1500s, 10s;
+  animation-iteration-count: 150;
+  animation-name: height, color, opacity;
+  animation-timing-function: step-stop;
+  opacity: .2;
+}
+ul li:nth-child(5) {
+  animation-duration: 5s, 1500s, 5s;
+  animation-iteration-count: 300;
+  animation-name: height, color, opacity;
+  opacity: .1;
+}
+
+time {
+  color: white;
+  font-family: 'Baloo Da', cursive;
+  font-size: 4em;
+  font-weight: 300;
+  height: 200px;
+  left: -30px;
+  line-height: 100px;
+  margin-top: 355px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  user-select: none;
+  z-index: 2;
+}
+
+
+
+ 
+  
